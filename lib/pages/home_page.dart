@@ -12,7 +12,14 @@ class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-
+      body: Center(
+        child: Text(
+          'Welcome to Home',
+          style: TextStyle(
+            fontSize: 40
+          ),
+        ),
+      ),
     );
   }
 }
